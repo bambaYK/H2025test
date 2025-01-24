@@ -3,3 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(_name_)
 
 @app.route('/python', methods=['POST'])
+def pythonservice():
+  data = request.json
+  print('Donnees recues de Nodejs : ', data)
+  
