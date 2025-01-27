@@ -19,6 +19,6 @@ if ($response === FALSE){
     die('Erreur avec la requete Node.js');
 }
 
-echo "Reponse de Node.js : " . $response;
+echo "Reponse de Node.js : " . $response . "\n";
 
 ?>
