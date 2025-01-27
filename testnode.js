@@ -9,7 +9,7 @@ app.post('/node', async (req, res) => {
   
 // Envoie des donnees a python 
   try{
-    const response  = await axios.post('http://localhost/5000/python', req.body);
+    const response  = await axios.post('http://localhost:5000/python', req.body);
     console.log('reponse de Python', response.data)
     res.json(response.data); // Renvoyer la reponse a php  
   } catch (err){
