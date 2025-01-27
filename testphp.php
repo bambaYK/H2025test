@@ -1,6 +1,6 @@
 <?php
 $data = array(
-    "name" => "Lamp Fall Parfum",
+    "name" => "Hey Python",
     "description" => "demande de test de communication"
 );
 
